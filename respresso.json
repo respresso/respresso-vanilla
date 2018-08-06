@@ -1,0 +1,26 @@
+{
+	"serverUrl": "https://app.respresso.io",
+	"projectToken": "75ea1c52-6860-4814-bba8-5b07f8a0be15",
+	"resources": [
+		{
+			"category": "localization",
+			"group": "json",
+			"version": "1.0.0"
+		},
+		{
+			"category": "color",
+			"group": "sass",
+			"version": "1.0.0"
+		},
+		{
+			"category": "image",
+			"group": "svg",
+			"version": "1.0.0"
+		},
+		{
+			"category": "font",
+			"group": "simple",
+			"version": "1.0.0"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+@import "../respresso/colors";
+
+
+.card  {
+	.card-header {
+		background-color: $profil_photo_background;
+	}
+
+	.card-body {
+		background-color: $background;
+	}
+}
+
+#title {
+	padding: 5px;
+	font-weight:  400;
+	font-size: 24px;
+
+}
