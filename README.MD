@@ -18,6 +18,8 @@ Respresso currently supports five types of resources:
 Using Respresso should be intuitive to anyone who has used npm before.
 Configurations are stored in the *respresso.json*, while your current assets’ metadata are stored in *respresso.lock*.
 
+⚠️ You'll need java installed on your machine.
+
 ## Configuration
 
 In *respresso.json* you can customize:
@@ -59,4 +61,3 @@ npm install respresso --dev
 # Respresso Vanilla demo
 
 > This demo uses Typescript but it'd be the same in JS.  
-> You'll need java installed on your machine.
