@@ -61,3 +61,20 @@ npm install respresso --dev
 # Respresso Vanilla demo
 
 > This demo uses Typescript but it'd be the same in JS.  
+
+
+### Localization	
+
+Respresso files are imported in *src/messages.ts*.	
+
+### SASS	
+
+Color definitions from Respresso are imported in *src/index.scss*.	
+
+### Images	
+
+Just include your svg files as in *index.html*.	
+
+### Fonts	
+
+TBD
