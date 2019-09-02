@@ -56,22 +56,6 @@ npm install respresso --dev
 3. After configuring your Respresso project, just issue ```npm run sync``` and you can start using the resources.
 
 
-### Localization
-
-Respresso files are imported in *src/messages.ts*.
-
-### SASS
-
-Color definitions from Respresso are imported in *src/index.scss*.
-
-### Images
-
-Just include your svg files as in *index.html*.
-
-### Fonts
-
-
-
 # Respresso Vanilla demo
 
 > This demo uses Typescript but it'd be the same in JS.  
