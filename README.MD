@@ -49,7 +49,7 @@ npm install respresso --dev
 2. Add a sync script into your *package.json*:
 ```
 "scripts": {
-		"sync": "respresso sync",
+	"sync": "respresso sync",
         ...
         }
 ```
