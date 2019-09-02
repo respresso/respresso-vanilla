@@ -44,10 +44,7 @@ To start using Respresso in your app takes almost zero time and effort.
 
 1. Add to your dev devendencies:   
 ```
-"devDependencies": {
-		"respresso": "^0.0.13",
-        ...
-        }
+npm install respresso --dev
 ```
 2. Add a sync script into your *package.json*:
 ```
