@@ -53,8 +53,7 @@ npm install respresso --dev
         ...
         }
 ```
-3. Run ```npm install```
-4. After configuring your Respresso project, just issue ```npm run sync``` and you can start using the resources.
+3. After configuring your Respresso project, just issue ```npm run sync``` and you can start using the resources.
 
 
 ### Localization
