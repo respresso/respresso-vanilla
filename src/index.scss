@@ -1,19 +1,120 @@
-@import "../respresso/colors";
+@import "../respresso/respresso-colors";
+@import '../respresso.images';
+@import './bootstrap.css';
+@import './bootstrap-reboot.css';
 
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	min-height: 480px;
+	height: 80vh;
+	max-height: 560px;
+	box-sizing: border-box;
+	padding: 48px 48px 32px;
+	overflow: hidden;
+	transform: skewY(-6deg);
+	transform-origin: 0;
+	background-color: $respresso_blue;
+	background: linear-gradient(216.31deg, $respresso_gradient_start 9.05%, $respresso_gradient_middle 66.81%, $respresso_blue 90.42%);
+	color: $white;
+}
 
-.card  {
-	.card-header {
-		background-color: $profil_photo_background;
-	}
+.check-demo-text {
+	max-width: 400px;
+	width: 100%;
+}
 
-	.card-body {
-		background-color: $background;
+.check-demo-container {
+	background-color: $light_grey;
+}
+
+.rounded-lg {
+	border-radius: 26px !important;
+}
+
+.color-white {
+	color: $white;
+}
+
+.color-green {
+	color: $respresso_green;
+}
+
+.color-green-hover:hover {
+	color: $respresso_green;
+	text-decoration: none;
+}
+
+.join-button {
+	color: $white;
+	background-color: $respresso_green;
+	transition: all 0.5s ease;
+	&:hover {
+		color: $white;
+		background-color: $respresso_blue;
+		text-decoration: none;
 	}
 }
 
-#title {
-	padding: 5px;
-	font-weight:  400;
-	font-size: 24px;
+.btn-white {
+	background-color: $white;
+}
 
+.text-size-bigger {
+	font-size: 1.3rem;
+}
+
+.w-px-50 {
+	width: 50px;
+}
+
+.logo-image {
+	background-image: url(logo());
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+
+.cta {
+	position: relative;
+	transition: all 0.4s ease;
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width: 100%;
+		height: 100%;
+		border: 1px solid $cta_border;
+		border-radius: 26px;
+		transition: all 0.3s ease;
+	}
+	&:hover {
+		&::after {
+			border: 1px solid $respresso_green;
+			top: 0;
+			left: 0;
+		}
+		color: $white;
+		background-color: $respresso_green;
+	}
+}
+
+.big-text {
+	color: $white;
+}
+
+@media all and (max-width: 768px) {
+	.big-text {
+		color: $black;
+	}
+	.btn-white {
+		background-color: $respresso_green;
+		color: $white;
+	}
 }

@@ -1,10 +1,10 @@
 {
 	"serverUrl": "https://app.respresso.io",
-	"projectToken": "75ea1c52-6860-4814-bba8-5b07f8a0be15",
+	"projectToken": "ec9a1576-7fc9-416e-9f7b-414ea2123cde",
 	"resources": [
 		{
 			"category": "localization",
-			"group": "json",
+			"group": "jsonflat",
 			"version": "1.0.0"
 		},
 		{
@@ -14,12 +14,17 @@
 		},
 		{
 			"category": "image",
-			"group": "svg",
+			"group": "scss",
+			"version": "1.0.0"
+		},
+		{
+			"category": "image",
+			"group": "web",
 			"version": "1.0.0"
 		},
 		{
 			"category": "font",
-			"group": "simple",
+			"group": "font",
 			"version": "1.0.0"
 		}
 	]
