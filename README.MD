@@ -64,11 +64,11 @@ npm install respresso --dev
 
 ## Try it
 
-1. Install any packages that it depends on.
+1. Install any packages that it depends on   
 ```npm install```
-2. Sync resource files
+2. Sync resource files   
 ```npm run sync```
-3. Start running the server
+3. Start running the server  
 ```npm run start```
 
 ### Localization	
