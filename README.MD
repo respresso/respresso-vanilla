@@ -62,6 +62,14 @@ npm install respresso --dev
 
 > This demo uses Typescript but it'd be the same in JS.  
 
+## Try it
+
+1. Install any packages that it depends on.
+```npm install```
+2. Sync resource files
+```npm run sync```
+3. Start running the server
+```npm run start```
 
 ### Localization	
 
@@ -77,4 +85,3 @@ Just include your svg files as in *index.html*.
 
 ### Fonts	
 
-TBD
