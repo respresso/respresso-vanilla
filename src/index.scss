@@ -3,6 +3,26 @@
 @import './bootstrap.css';
 @import './bootstrap-reboot.css';
 
+@font-face {
+	font-family: "OpenSans";
+	src: url("../respresso/font/open_sans_regular.ttf") format("truetype");
+	font-weight: 400;
+  }
+@font-face {
+	font-family: "OpenSans";
+	src: url("../respresso/font/open_sans_bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+body {
+	font-family: 'OpenSans', sans-serif;
+	font-weight:400;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 700;
+}
+
 .hero {
 	display: flex;
 	flex-direction: column;
