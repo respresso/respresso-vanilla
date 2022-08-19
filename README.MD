@@ -1,3 +1,28 @@
+# 🛑 Docs out-of-date notice! 🛑
+This documentation is not updated anymore. 
+All documentation of Respresso moved to https://respresso.io/docs.
+## ✔️ Up-to-date docs for Web is here:
+### Get started with Respresso
+| Content                                          | Link                                                                         |
+| ------------------------------------------------ | -----------------------------------------------------------------------------|
+| Add Respresso to new or exiting Web project      | https://respresso.io/docs/guides/web-project-setup                           |
+| Get started with Respresso CLI (auto-sync)       | https://respresso.io/docs/get-started-with-respresso-sync                    |
+| Migrate from legacy NPM package to the new CL  I | https://respresso.io/docs/guides/migrate-from-legacy-npm-package             |
+
+### Learn more - Docs for Web Devs
+| Content                                          | Link                                                                         |
+| ------------------------------------------------ | -----------------------------------------------------------------------------|
+| Respresso CLI reference (auto-sync)              | https://respresso.io/docs/respresso-cli-reference                            |
+| Respresso CLI config reference (auto-sync)       | https://respresso.io/docs/respresso-cli-config-reference                     |
+| Import existing resources from Web project       | [Localization](https://respresso.io/docs/localization/import), [Image (raster or vector)](https://respresso.io/docs/image/import), [Color](https://respresso.io/docs/color/import) |
+| Localization format - JSON (Flat or Structured)  | https://respresso.io/docs/localization/docs/localization/json-format         |
+| Localization variables in Respresso              | https://respresso.io/docs/localization/variables                             |
+| Localization variable placeholders               | https://respresso.io/docs/localization/custom-variable-placeholders          |
+
+## Seriously, 🛑 stop 🛑 here and go to the [new docs](https://respresso.io/docs/guides/web-project-setup)!  
+
+---
+
 [<div align="center"><img src="https://github.com/pontehu/respresso-vanilla/blob/master/images/header_web.png" height="220" /></div>](https://respresso.io)  
 
 # Respresso Web client [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Save%20development%20time%21%20Respresso%20automatically%20transforms%20and%20delivers%20your%20digital%20assets%20into%20your%20projects&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation)  
